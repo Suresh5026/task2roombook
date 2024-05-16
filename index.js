@@ -13,7 +13,7 @@ HTTP_SERVER.listen(PORT,HOSTNAME,()=>{
 })
 
 HTTP_SERVER.get('/',(req,res)=>{
-    res.send('Server is Working')
+    res.send('<h1>HALL BOOKIN API</h1>')
 })
 
 //Creating a Room (POST API)
