@@ -12,6 +12,10 @@ HTTP_SERVER.listen(PORT,HOSTNAME,()=>{
     console.log(`Server Started Successfully at ${PORT}`);
 })
 
+HTTP_SERVER.get('/',(req,res)=>{
+    res.send('Server is Working')
+})
+
 //Creating a Room (POST API)
 
 let rooms = [];
