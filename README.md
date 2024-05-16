@@ -24,12 +24,19 @@ JSon format :
 
 ---List all Rooms with booked data API (GET -> http://localhost:8000/Bookeddata) while send the get request using this URL you'll get the required booked data from an manually created json data file ie., BookingDetails.json file ---
 
+Render.com URL [Click here](https://task2roombook.onrender.com/Bookeddata)
+
+
 ---List all customers booked date API (GET -> http://localhost:8000/customers/Bookeddata) while send the get request using this URL you'll get the required booked data from an manually created json data file ie., BookingDetails.json file ---
+
+Render.com URL [Click here](https://task2roombook.onrender.com/customers/Bookeddata)
 
 
 ---List how many times a customer has booked the room API 
 (GET -> http://localhost:8000/customers/:customerName)  (Note :customerName enter any name from a json date eg., 'Suresh')
 while send the get request using this URL you'll get the required booked data from an manually created json data file ie., BookingDetails.json file ---
+
+Render.com URL [Click here](https://task2roombook.onrender.com/customers/Suresh)
 
 I have tested all the POST & GET request on POSTMAN
 
