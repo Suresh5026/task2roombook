@@ -4,7 +4,7 @@ require("dotenv").config();
 const fs = require('node:fs')
 const parser = require('body-parser');
 const PORT = process.env.PORT || 3000;
-const HOSTNAME = 'localhost';
+const HOSTNAME = process.env.HOSTNAME || 'localhost';
 
 HTTP_SERVER.use(parser.json());
 
